@@ -1,0 +1,27 @@
+
+.container {
+
+}
+
+.btn-modern {
+    background-color: #304FFE;
+    color: rgb(240, 131, 216);
+    transition: all 0.4s;
+    border: none;
+    border-radius: 10px;
+    width: 80px;
+    height: 30px;
+    cursor: pointer;
+
+}
+
+.btn-modern:hover {
+    background-color: #7e1288;
+    color: white;
+    transform: translateY( -5px);
+    box-shadow: 3px 3px #304FFE;
+}
+
+.btn-modern::selection {
+    background-color: #7B7DFF;
+}
