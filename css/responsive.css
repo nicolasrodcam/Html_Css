@@ -1,0 +1,63 @@
+
+    .container {
+        display: flex;
+        background-color: yellow;
+        flex-direction: column-reverse;
+    
+    }
+    
+    .barra {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 0.5rem;
+        padding: 5px;
+        flex-wrap: wrap;
+    
+    }
+    
+    .elemento {
+        background-color: blue;
+        color: aqua;
+        width: 10rem;
+    }
+    
+    .seccion {
+        flex-grow: inherit;
+        padding: 5px;
+        background-color: aquamarine;
+    }
+
+
+@media (min-width: 640px) {
+   
+    .container {
+        display: flex;
+        flex-direction: row;
+        background-color: yellow;
+    
+    }
+    
+    .barra {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 0.5rem;
+        padding: 5px;
+        width: 20vw;
+     
+    }
+    
+    .elemento {
+        background-color: blue;
+        color: aqua;
+    }
+    
+    .seccion {
+        flex-grow: inherit;
+        padding: 5px;
+        background-color: aquamarine;
+        width: 80vw;
+    }
+
+}
